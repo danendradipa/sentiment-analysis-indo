@@ -2,7 +2,7 @@
 ## Project Overview:
 ### This project performs sentiment analysis on Indonesian text data using the Logistic Regression algorithm. The analysis is implemented using a combination of Jupyter Notebook for data processing and training, and Streamlit to deploy an interactive web application.
 
-# Key Features:
+## Key Features:
 - 🔍 Sentiment Analysis: Predicting whether the sentiment of a given text is positive, negative, or neutral.
 - 📚 Algorithm Used: Logistic Regression implemented with Scikit-learn.
 - 🛠 Tools and Technologies:
@@ -11,6 +11,26 @@
   - Scikit-learn for Logistic Regression and TF-IDF Vectorization.
   - Pandas and Numpy for data manipulation.
     
-# Dataset:
+## Dataset:
 
 The dataset used for this project is from the IndoNLP repository, specifically the [SMSA Document Sentiment Dataset](https://github.com/IndoNLP/indonlu/tree/master/dataset/smsa_doc-sentiment-prosa). , which contains Indonesian text with labeled sentiments (positive, negative, neutral).
+
+## Installation:
+
+1. Clone the repository:
+    ```bash
+    https://github.com/danendradipa/sentiment-analysis-indo.git
+    ```
+
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## How to run:
+
+1. Run the Streamlit app using the command:
+
+    ```bash
+    streamlit run sentiment_indo.py
+    ```
